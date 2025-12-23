@@ -186,4 +186,4 @@ st.divider()
 st.subheader("📊 植物健康履歷表")
 df = load_history()
 if df is not None:
-    st.dataframe(df.sort_index(ascending=False).head(5), use_container_width=True)！")
+    st.dataframe(df.sort_index(ascending=False).head(5), use_container_width=True)
